@@ -6,13 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:text="@string/Titulo1"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Correo"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="344dp"
+            android:layout_height="96dp"
+            android:backgroundTint="#C8C8C8"
+            android:text="@string/botonInicioSesion"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:text="@string/recuperarContraseña"
+            android:textColor="#2196F3" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

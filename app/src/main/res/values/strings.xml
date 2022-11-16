@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Ejercicio7EnParejas</string>
+    <string name="Titulo1">Conectar</string>
+    <string name="botonInicioSesion">INICIAR SESION</string>
+    <string name="recuperarContraseña">¿Olvidaste tu contraseña?</string>
 </resources>
