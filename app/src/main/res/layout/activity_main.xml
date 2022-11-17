@@ -53,7 +53,7 @@
             android:layout_height="39dp"
             android:gravity="center"
             android:text="@string/recuperarContraseña"
-            android:textColor="#2196F3" />
+            android:textColor="#2196F3"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
